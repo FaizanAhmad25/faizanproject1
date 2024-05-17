@@ -1,0 +1,1012 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+/* RESET CSS */
+
+/*  * HEADER CSS */
+header {
+    background-color: ffffff;
+    border-bottom: 1px solid ffffff;
+    padding-top: 25px;
+    padding-left: 11.5rem;
+    padding-right: 50px;
+   
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+header .container .left a , header .container .right a {
+    margin-right: 28px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #506a85;
+    font-family: 'Source Sans 3', sans-serif;
+}
+header .container .left a:last-child {
+    margin-right: 0px;
+}
+
+header .container .left a i {
+    margin-right: 8px;
+}
+
+header .container .right a:last-child {
+    margin-right: 0px;
+}
+
+/*  * HEADER MEDIA QUERIES */
+
+@media(max-width:540px) {
+   header{
+    margin-right: 80px;
+    display: block;
+   }
+    header .container {
+        display: block;
+        text-align: center;
+    }
+
+    header .container .left {
+        margin-bottom: 10px;
+    }
+
+    header .container .right a {
+        margin-right: 21px;
+    }
+}
+
+/*  * HEADER MEDIA QUERIES */
+/*  * HEADER CSS */
+
+/*  * NAVBAR CSS */
+nav {
+    margin: 36px 15px;
+}
+
+nav .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu img {
+    margin-right: 5rem;
+
+}
+nav .menu a {
+    margin-right: 44px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #506a85;
+    text-decoration: none;
+}
+
+nav .menu a:last-child {
+    margin-right: 0px;
+}
+
+/* *FOR SVG 
+
+svg path {
+  fill: #0000
+
+*/
+
+nav .menu .search-bar i {
+    color: #506a85;
+    margin-left: 40px; 
+}
+
+nav .menu .hamburger {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: ffffff;
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-left: 40px;
+}
+
+nav .mobile-navigation {
+text-align: center;
+    display: none;
+    background-color: #cccccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav .mobile-navigation a {
+    display: block;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #506a85;
+    text-decoration: none;
+    border-bottom: 2px solid gray;
+}
+nav .mobile-navigation a:last-child {
+    margin-bottom: 0px;
+}
+@media(max-width:991px) {
+ nav .menu .navigation , nav .menu .search-bar {
+        display: none;
+    }  
+    nav .menu .hamburger {
+        display: flex;
+    } 
+    nav .mobile-navigation {
+        display: block;
+    }
+}
+/*  * NAVBAR CSS */
+/*  * BANNER CSS */
+.banner {
+    background-image: url(./image/reen\ web\ page.png);
+    width: 100%;
+    height: 880px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner .main-text h1 {
+    font-size: 78px;
+    color: white;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+}
+
+.banner .main-text p {
+    font-size: 24px;
+    color: lightgrey;
+    font-family: 'Source Sans 3', sans-serif;
+    max-width: 980px;
+    line-height: 1.2;
+    margin-bottom: 63px;
+}
+
+.banner .main-text button {
+    background-color: aqua;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 2px;
+    min-height: 62px;
+    width: 295px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+@media(max-width:991px) {
+    .banner {
+
+        height: 600px;
+    }
+
+    .banner .main-text h1 {
+
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .banner .main-text p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .banner .main-text button {
+
+        min-height: 50px;
+        width: 250px;
+
+    }
+}
+
+@media(max-width:540px) {
+    .banner .main-text h1 {
+
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .banner .main-text p {
+        font-size: 17px;
+        margin-bottom: 25px;
+    }
+
+    .banner .main-text button {
+
+        min-height: 50px;
+        width: 200px;
+    }
+    .banner {
+        height: 600px;
+    }
+}
+/*  * BANNER CSS */
+/*  * TEXT WRITE CSS */
+.responsive {
+    text-align: center;
+}
+.responsive .selection h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 44px;
+    color: #506a85;
+    margin-bottom: 50px;
+}
+
+.responsive .selection p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 22px;
+    max-width: 880px;
+    margin: 0 auto;
+    line-height: 1.2;
+    color: rgb(88, 121, 164);
+}
+
+@media(max-width:991px) {
+    .responsive .selection h1 {
+        font-size: 34px;
+    }
+
+    .responsive .selection p {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:460px) {
+
+    .responsive .selection h1 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .responsive .selection p {
+        font-size: 14px;
+
+    }
+    
+}
+
+/*  * TEXT WRITE CSS */
+/* * PARAGRAPH CSS */
+.paragraph .portion {
+    display: flex;
+    color: #506a85;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 130px;
+}
+
+.paragraph .portion h1 {
+    margin-bottom: 27px;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    margin-left: 31px;
+}
+
+.paragraph .portion p {
+    color: rgb(88, 121, 164);
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+    margin-left: 30px;
+    line-height: 1.4;
+}
+
+.paragraph .portion img {
+    margin-top: 10px;
+}
+
+@media(max-width:991px) {
+    .paragraph .portion {
+        margin-left: 50px;
+        text-align: center;
+    }
+    .paragraph .portion h1 {
+        font-size: 20px;
+    }
+
+    .paragraph .portion p {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .paragraph .portion img {
+        width: 35px;
+        height: 30px;
+    }
+}
+
+@media(max-width: 480px) {
+    .paragraph .portion {
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .paragraph .portion h1 {
+        font-size: 22px;
+
+    }
+
+    .paragraph .portion p {
+        font-size: 18px;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+     .paragraph .portion .ben {
+        padding-bottom: 20px;
+        margin-left: 30px;
+    }
+     .paragraph .portion .ten img {
+        margin-top: 10px;   
+        padding-bottom: 20px; 
+        height: 37px;   
+        margin-left: 30px;
+
+    }
+
+    .paragraph .portion {
+        display: block;
+        margin: auto;
+        margin-right: 60px;
+    }
+
+}
+
+/* * PARAGRAPH CSS */
+/*  * MESSAGE */
+.classical .professional {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.classical .professional h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    margin-top: 80px;
+    color: #506a85;
+}
+
+.classical .professional p {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 46px;
+    color: lightslategray;
+}
+
+/*  * MESSAGE */
+
+/*  * CARDS CSS */
+.cards .card {
+    border-color: #f2f5f7;
+    border-radius: 4px;
+}
+
+.cards .card img {
+    width: 100%;
+}
+
+.cards {
+    background-color: #f2f5f7;
+    padding: 50px 0px;
+}
+
+.cards .card-body {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.cards .card-body .card .card-footer {
+    background-color: white;
+    padding: 35px 0px;
+    text-align: center;
+    margin-bottom: 17px;
+}
+
+.cards .card-body .card .card-footer h6 {
+    font-size: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+    margin-bottom: 17px;
+    color: #506a85;
+}
+
+.cards .card-body .card .card-footer p {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color: lightslategray;
+}
+
+@media(max-width:992px) {
+    .cards .card-body {
+        display: block;
+    }
+}
+
+/*  * CARDS CSS */
+
+
+/*  * MESSAGE CSS */
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container .text h1 {
+    font-size: 44px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: #506a85;
+}
+
+.container .text p {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Source Sans 3', sans-serif;
+    color: lightslategray;
+    margin: 47px 0px;
+    max-width: 800px;
+}
+
+.container .text button {
+    background-color: aqua;
+    border-radius: 2px;
+    border: none;
+    border-bottom: 2px;
+    min-height: 48px;
+    width: 150px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+/*  * MESSAGE CSS */
+
+@media(max-width:992px) {
+    .container .text h1 {
+        font-size: 30px;
+    }
+
+    .container .text p {
+        font-size: 16px;
+        margin: 37px 0px;
+    }
+
+    .container .text button {
+        min-height: 38px;
+        width: 130px;
+        font-size: 12px;
+    }
+}
+
+/*  * FOOTER CSS */
+
+footer {
+    background-color: #2f4052;
+    padding: 75px 45px;
+    margin-top: 100px;
+    line-height: 1.2;
+}
+footer .footer-body {
+    display: flex;
+    column-gap: 30px;
+    text-align: justify;
+}
+
+footer .container .single-box h5 {
+    color: white;
+    margin: 20px 25px;
+}
+
+footer .container .single-box p {
+    color: white;
+    margin: 20px 0px;
+}
+
+footer .container .single-box a {
+    color: white;
+}
+footer .container .single-box a i {
+    color: white;
+    margin-left: 4px;
+}
+
+footer .footer-body .single-box {
+    width: 25%;
+}
+footer .container .single h5 {
+    color: white;
+    margin: 20px 25px;
+}
+
+footer .container .single p {
+    color: white;
+    margin: 30px 0px;
+}
+footer .container .single a {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+footer .footer-body .single {
+    width: 25%;
+}
+footer .container .box h5 {
+    color: white;
+    margin: 20px 25px;
+}
+footer .container .box p {
+    color: white;
+    margin: 30px 0px;
+}
+footer .container .box div {
+  position: relative;
+}
+
+footer .container .box input {
+    width: 90%; 
+    height: 25px;
+}
+footer .container .box button {
+    position: absolute;
+    top: 0%;
+    right:0% 
+}
+footer .container .box button {
+  color: white;
+  background-color: aqua;
+  height: 30px;
+  border-style: none;
+ 
+}
+footer .container .box button a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+footer .footer-body .box {
+    width: 25%;
+}
+
+
+
+
+@media(max-width:990px) {
+    
+footer {
+    background-color: #2f4052;
+    padding: 45px 25px;
+    margin-top: 100px;
+    line-height: 1.2;
+}
+    footer .footer-body {
+        display: block;
+    }
+    footer .container .single-box , footer .container .single , footer .container .box{
+       width: 100%;
+       text-align: center;
+    }
+    
+    
+}
+
+@media(max-width:680px) {
+    footer {
+        float: none;
+    }
+
+    footer .footer-body {
+        float: none;
+    }
+
+    footer .footer-body .single-box {
+        float: none;
+        text-align: center;
+    }
+
+}
+
+/*  * FOOTER CSS */
+
+
+/*  *FOOTER BAR CSS */
+
+section .footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    background-color: #11365e;
+    height: 80px;
+    text-align: center;
+}
+
+
+section .paragraph {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #506a85;
+    margin-right: 99px;
+    font-size: 20px;
+}
+
+section .footer .navigation a {
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Source Sans 3', sans-serif;
+    color: #506a85;
+    text-decoration: none;
+    align-items: center;
+    display: inline;
+    justify-content: space-between;
+}
+
+@media(max-width:991px) {
+    section .footer {
+        display: block;
+        margin: 60px;
+        background-color: #11365e;
+        height: 190px;
+        text-align: center;
+    }
+    section .paragraph {
+        display: flex;
+        margin-bottom: 30px;
+    }
+}
+
+/*  *FOOTER BAR CSS */
